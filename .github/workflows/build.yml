@@ -150,9 +150,9 @@ jobs:
         with:
           python-version: '3.9' # Ganti dengan versi Python yang dibutuhkan
 
-      - name: Install pyrogram and tgcrypto
+      - name: Install pyrogram, requests and tgcrypto
         run: |
-          pip install -U pyrogram tgcrypto
+          pip install -U pyrogram tgcrypto requests
 
       - name: Run upload.py
         env:
