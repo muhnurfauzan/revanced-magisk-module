@@ -165,7 +165,7 @@ jobs:
           API_ID: ${{ secrets.TG_API_ID }}
           API_HASH: ${{ secrets.TG_API_HASH }}
           BOT_TOKEN: ${{ secrets.TG_TOKEN }}
-        run: curl -o upload.py https://raw.githubusercontent.com/kotakbiasa/TelegramZipUploader/main/upload.py && python upload.py --dir build --api_id $API_ID --api_hash $API_HASH --bot_token $BOT_TOKEN --emoji --release_tag ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
+        run: curl -o upload.py https://raw.githubusercontent.com/kotakbiasa/TelegramZipUploader/main/upload.py && python upload.py --dir build --api_id $API_ID --api_hash $API_HASH --bot_token $BOT_TOKEN --release_tag ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
 
       - uses: actions/upload-artifact@v4
         with:
