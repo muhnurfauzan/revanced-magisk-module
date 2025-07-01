@@ -158,7 +158,7 @@ jobs:
 
       - name: Install pyrogram, requests and tgcrypto
         run: |
-          pip install -U pyrogram tgcrypto requests
+          pip install -U pyrofork tgcrypto requests
 
       - name: Run upload.py
         env:
