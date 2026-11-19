@@ -1,18 +1,22 @@
-GooglePhotos (arm64-v8a): 7.63.0.869312946  
-GooglePhotos (arm-v7a): 7.63.0.869312946  
-Music (arm64-v8a): 8.10.52  
-Music (arm-v7a): 8.10.52  
-Spotify: 9.0.76.1115  
-YouTube: 20.14.43  
+GooglePhotos: 7.92.0.977185651  
+Music-Morphe (arm64-v8a): 9.30.53  
+Music-Morphe (arm-v7a): 9.30.53  
+Reddit-Morphe: 2026.40.0  
+Twitter: 12.41.0-prod.01  
+YouTube-Morphe: 21.30.216  
 
-Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
-Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
+Install [Microg](https://github.com/MorpheApp/MicroG-RE/) for non-root YouTube and YT Music APKs  
+Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music modules from Play Store  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.50.2.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.50.2)  
+Patches: crimera/piko-newx/patches-3.75.0.mpp  
+[Changelog](https://github.com/crimera/piko-newx/releases/tag/v3.75.0)
 
-Skipped:  
-Patches: inotia00/patches-5.14.1.rvp    
+Patches: MorpheApp/morphe-patches/patches-2.3.0.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v2.3.0)
+
+Patches: RookieEnough/De-Vanced/patches-1.6.4.mpp  
+[Changelog](https://github.com/RookieEnough/De-Vanced/releases/tag/v1.6.4)
+
+CLI: MorpheApp/morphe-cli/morphe-desktop-2.2.0-all.jar    
